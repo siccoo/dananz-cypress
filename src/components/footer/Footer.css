@@ -1,0 +1,88 @@
+.footer-section {
+  position: sticky;
+  top: 100%;
+  padding-bottom: 70px;
+}
+
+.footer-logo {
+    width: 120px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer-logo {
+    width: 80px;
+  }
+}
+
+.furniture {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 170%;
+  color: #333333;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .furniture {
+    font-size: 24px;
+  }
+}
+
+.footer-email {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #333333;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer-email {
+    font-size: 14px;
+    margin-top: auto;
+  }
+}
+
+.footer-subscription input {
+  border: none;
+  outline: none;
+  padding: 0px 70px 0px 0px;
+  margin: 0px 120px 0px 0px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer-subscription input {
+    padding: 0px 40px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+.footer-subscription input::placeholder {
+  font-size: 13px;
+  color: #d9d9d9;
+  line-height: 160%;
+}
+
+.footer-line {
+  width: 365px;
+  border: 0.6px solid #000000;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer-line {
+    width: 217px;
+  }
+}
+
+.social-section a {
+  margin-right: 10px;
+  border-radius: 100%;
+  background-color: #d9d9d9 !important;
+  padding: 5px;
+}
+
+.social-section .social-icon {
+  width: 20px;
+}

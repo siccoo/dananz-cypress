@@ -1,10 +1,9 @@
-
-import './App.css';
+import Home from "./pages/home/Index";
 
 function App() {
   return (
-    <div className="App">
-      Hello Dananz
+    <div>
+      <Home />
     </div>
   );
 }
