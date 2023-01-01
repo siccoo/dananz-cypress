@@ -6,6 +6,8 @@ import FacebookIcon from "../../assets/images/facebook.png";
 import InstagramIcon from "../../assets/images/instagram.png";
 import TiktokIcon from "../../assets/images/tiktok.png";
 import YoutubeIcon from "../../assets/images/youtube.png";
+import Circle from "../../assets/images/circleIcon.png";
+import ArrowUpward from "../../assets/images/arrowUpward.png";
 
 const Footer = () => {
   return (
@@ -24,14 +26,14 @@ const Footer = () => {
             <div className="col-md-3"></div>
             <div className="col-md-4">
               <p className="footer-email">
-                ⚫️ Enter your email to get the latest news
+                <img src={Circle} alt="" />{" "} Enter your email to get the latest news
               </p>
               <div className="footer-subscription">
                 <input type="text" placeholder="Email address" />
-                {/* <i className="bi bi-arrow-right"></i> */}
+                <img src={ArrowUpward} alt="" />
               </div>
               <hr className="footer-line" />
-              <div className="social-section text-right">
+              <div className="social-section ">
                 <p>Follow us On</p>
                 <a href="/">
                   <img
