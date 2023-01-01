@@ -15,18 +15,14 @@ const Footer = () => {
       <section className="footer-section">
         <div className="container">
           <div className="row">
-            <div className="col-md-5">
-              <img
-                src={FooterLogo}
-                className="footer-logo"
-                alt="dananz"
-              />
+            <div className="col-md-8">
+              <img src={FooterLogo} className="footer-logo" alt="dananz" />
               <p className="furniture">One of the best furniture agency.</p>
             </div>
-            <div className="col-md-3"></div>
             <div className="col-md-4">
               <p className="footer-email">
-                <img src={Circle} alt="" />{" "} Enter your email to get the latest news
+                <img src={Circle} alt="" /> Enter your email to get the latest
+                news
               </p>
               <div className="footer-subscription">
                 <input type="text" placeholder="Email address" />

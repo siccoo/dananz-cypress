@@ -108,10 +108,10 @@ const Home = () => {
       <section className="home-three">
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-8">
               <p>let's discuss making your interior like a dream place!</p>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-4">
               <div className="contact-section">
                 <p>
                   Contact us below to work together to build your amazing

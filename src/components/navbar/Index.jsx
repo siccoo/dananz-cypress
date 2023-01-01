@@ -10,11 +10,7 @@ const Navbar = () => {
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light nav-bg">
             <a className="navbar-brand" href="/">
-              <img
-                src={HomeLogo}
-                className="home-logo"
-                alt="home-logo"
-              />
+              <img src={HomeLogo} className="home-logo" alt="home-logo" />
             </a>
             <button
               className="navbar-toggler"
@@ -27,7 +23,10 @@ const Navbar = () => {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div id="navbarSupportedContent" className="navbar-collapse collapse">
+            <div
+              id="navbarSupportedContent"
+              className="navbar-collapse collapse"
+            >
               <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
                   <a href="/" className="nav-link">
