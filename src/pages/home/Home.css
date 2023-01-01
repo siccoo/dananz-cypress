@@ -9,14 +9,14 @@
     font-size: 56px;
     line-height: 140%;
     color: #000000;
-    margin-top: 50px;
+    margin-top: 100px;
   }
   
   @media only screen and (max-width: 1024px) {
     .home h3 {
       font-size: 25px;
       line-height: 35px;
-      margin-top: 10px;
+      margin-top: 50px;
       margin-bottom: 20px;
     }
   }
@@ -30,12 +30,14 @@
     color: #000000;
     max-width: 518px;
     margin: auto;
+    margin-top: 50px;
   }
   
   @media only screen and (max-width: 1024px) {
     .home p {
       font-size: 14px;
       line-height: 22px;
+      margin-top: 20px;
     }
   }
   

@@ -30,7 +30,7 @@ const Footer = () => {
               </p>
               <div className="footer-subscription">
                 <input type="text" placeholder="Email address" />
-                <img src={ArrowUpward} alt="" />
+                <img src={ArrowUpward} alt="" className="arrow-upward" />
               </div>
               <hr className="footer-line" />
               <div className="social-section ">

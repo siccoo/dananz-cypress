@@ -49,7 +49,7 @@
   border: none;
   outline: none;
   padding: 0px 70px 0px 0px;
-  margin: 0px 120px 0px 0px;
+  margin: 0px 94px 0px 0px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -63,6 +63,10 @@
   font-size: 13px;
   color: #d9d9d9;
   line-height: 160%;
+}
+
+.footer-subscription .arrow-upward {
+    width: 23px;
 }
 
 .footer-line {
