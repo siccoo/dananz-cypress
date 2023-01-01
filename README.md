@@ -2,12 +2,11 @@
 
 [Figma design](https://www.figma.com/file/4xv1J0UO79SH4SEUuKNwZl/Frontend-Practical-Task?node-id=337%3A7&t=dSyAuhMzgGgZfSBU-0) 
 
-## Front Technologies Used
+## Frontend Technologies Used
 
 - React
 - JavaScript
 - Bootstrap
-- React Icons
 
 ## Commands
 
