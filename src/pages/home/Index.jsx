@@ -14,10 +14,10 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <section class="home">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
+      <section className="home">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 text-center">
               <h3>Minimalist Room</h3>
               <p>
                 It is a long established fact that a reader will be distracted
@@ -27,23 +27,21 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section class="home-one">
-        <div class="container">
-          <div class="row text-center">
-            <div class="col-md-12 text-center">
-              <img
-                src={HomeImgOne}
-                class="img-fluid"
-                alt=""
-              />
+      <section className="home-one">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="ad-image">
+                <img src={HomeImgOne} alt="" />
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="home-two">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 pt-3">
+      <section className="home-two">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6 pt-3">
               <h6>Project Overview</h6>
               <p>
                 Online learning with us does not interfere with your daily life.
@@ -53,12 +51,12 @@ const Home = () => {
                 learning with us does not interfere with your daily life.
                 because learning can be done anytime and anywhere.
               </p>
-              <div style={{display: "flex", marginTop: "40px"}}>
-                <p style={{marginRight: "70px"}}>July 22 - 2022</p>
+              <div style={{ display: "flex", marginTop: "40px" }}>
+                <p style={{ marginRight: "70px" }}>July 22 - 2022</p>
                 <p>Interior Design - Furnitur</p>
               </div>
             </div>
-            <div class="col-md-6 pt-3">
+            <div className="col-md-6 pt-3">
               <h6>Design Process</h6>
               <p>
                 Online learning with us does not interfere with your daily life.
@@ -74,57 +72,47 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div class="row text-center">
-            <div class="col-md-6 pt-3">
-              <img
-                class="img-fluid"
-                src={HomeImgTwo}
-                alt=""
-              />
+          <div className="row">
+            <div className="col-md-6 pt-3">
+              <div className="ad-image">
+                <img src={HomeImgTwo} alt="" />
+              </div>
             </div>
-            <div class="col-md-6 pt-3">
-              <img
-                class="img-fluid"
-                src={HomeImgThree}
-                alt=""
-              />
+            <div className="col-md-6 pt-3">
+              <div className="ad-image">
+                <img src={HomeImgThree} alt="" />
+              </div>
             </div>
           </div>
-          <div class="row text-center">
-            <div class="col-md-12 p-5">
-              <img
-                class="img-fluid"
-                src={HomeImgFour}
-                alt=""
-              />
+          <div className="row">
+            <div className="col-md-12 pt-3">
+              <div className="ad-image">
+                <img src={HomeImgFour} alt="" />
+              </div>
             </div>
           </div>
-          <div class="row text-center">
-            <div class="col-md-6 pt-3">
-              <img
-                class="img-fluid"
-                src={HomeImgFive}
-                alt=""
-              />
+          <div className="row">
+            <div className="col-md-6 pt-3">
+              <div className="ad-image">
+                <img src={HomeImgFive} alt="" />
+              </div>
             </div>
-            <div class="col-md-6 pt-3 ">
-              <img
-                class="img-fluid"
-                src={HomeImgSix}
-                alt=""
-              />
+            <div className="col-md-6 pt-3">
+              <div className="ad-image">
+                <img src={HomeImgSix} alt="" />
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="home-three">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
+      <section className="home-three">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
               <p>let's discuss making your interior like a dream place!</p>
             </div>
-            <div class="col-md-6">
-              <div class="contact-section">
+            <div className="col-md-6">
+              <div className="contact-section">
                 <p>
                   Contact us below to work together to build your amazing
                   interior

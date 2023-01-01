@@ -54,7 +54,7 @@
 
 @media only screen and (max-width: 1024px) {
   .footer-subscription input {
-    padding: 0px 40px 0px 0px;
+    padding: 0px 70px 0px 0px;
     margin: 0px 0px 0px 0px;
   }
 }
@@ -76,7 +76,7 @@
 
 @media only screen and (max-width: 1024px) {
   .footer-line {
-    width: 217px;
+    width: 277px;
   }
 }
 
