@@ -50,6 +50,12 @@
   max-width: 100%;
 }
 
+@media only screen and (max-width: 1024px) {
+  .ad-image {
+    height: 255px;
+  }
+}
+
 .ad-image img {
   object-fit: cover;
   object-position: top;
@@ -114,7 +120,7 @@
   font-size: 36px;
   line-height: 170%;
   color: #ffffff;
-  max-width: 613px;
+  max-width: 550px;
 }
 
 @media only screen and (max-width: 1024px) {

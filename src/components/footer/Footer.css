@@ -50,7 +50,7 @@
   border: none;
   outline: none;
   padding: 0px 70px 0px 0px;
-  margin: 0px 94px 0px 0px;
+  margin: 0px 130px 0px 0px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -71,13 +71,24 @@
 }
 
 .footer-line {
-  width: 365px;
+  width: 405px;
   border: 1px solid #141414;
 }
 
 @media only screen and (max-width: 1024px) {
   .footer-line {
     width: 277px;
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1024px) {
+  .social {
+    justify-content: left;
   }
 }
 

@@ -29,36 +29,39 @@ const Footer = () => {
                 <img src={ArrowUpward} alt="" className="arrow-upward" />
               </div>
               <hr className="footer-line" />
-              <div className="social-section ">
-                <p>Follow us On</p>
-                <a href="/">
-                  <img
-                    src={FacebookIcon}
-                    className="social-icon"
-                    alt="facebook-icon"
-                  />
-                </a>
-                <a href="/">
-                  <img
-                    src={InstagramIcon}
-                    className="social-icon"
-                    alt="instagram-icon"
-                  />
-                </a>
-                <a href="/">
-                  <img
-                    src={TiktokIcon}
-                    className="social-icon"
-                    alt="tiktok-icon"
-                  />
-                </a>
-                <a href="/">
-                  <img
-                    src={YoutubeIcon}
-                    className="social-icon"
-                    alt="youtube-icon"
-                  />
-                </a>
+              <div className="social">
+                <p>&nbsp;</p>
+                <div className="social-section">
+                  <p>Follow us On</p>
+                  <a href="/">
+                    <img
+                      src={FacebookIcon}
+                      className="social-icon"
+                      alt="facebook-icon"
+                    />
+                  </a>
+                  <a href="/">
+                    <img
+                      src={InstagramIcon}
+                      className="social-icon"
+                      alt="instagram-icon"
+                    />
+                  </a>
+                  <a href="/">
+                    <img
+                      src={TiktokIcon}
+                      className="social-icon"
+                      alt="tiktok-icon"
+                    />
+                  </a>
+                  <a href="/">
+                    <img
+                      src={YoutubeIcon}
+                      className="social-icon"
+                      alt="youtube-icon"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
